@@ -6,6 +6,7 @@
     --Gray-500: hsl(0, 0%, 42%);
     --Gray-950: hsl(0, 0%, 7%);
 }
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -65,7 +66,7 @@ h1, .status{
 p{
     font-size: 16px;
     color: var(--Gray-500);
-    word-spacing: -2px;
+    
 }
 
 .avatar-container{
@@ -89,6 +90,23 @@ p{
 .footer{
     padding-top: 30px;
 }
+
+@media (max-width: 375px) {
+    .card {
+      max-width: 327px;
+      /* padding: 16px; */
+    }
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 14px;
+    }
+    h5,.date{
+        font-size: 12px;
+    }
+  }
+  
   .attribution { 
     font-size: 11px; 
     text-align: center; 
