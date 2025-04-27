@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/blog-preview-card-with-html-and-css-fENfBqYqCX
 - Live Site URL: https://bigboyemma20.github.io/blog-preview-card-main/
 
 ## My process
