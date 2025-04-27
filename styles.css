@@ -64,9 +64,10 @@ h1{
     text-align: left;
 }
 
-.status h5{
+.status .learning{
     font-weight: 800;
     font-size: 14.5px;
+    color: var(--Gray-950);
 }
 h1, .status{
     color:var(--Gray-950);
@@ -74,6 +75,7 @@ h1, .status{
 }
 .date{
     font-weight: 500;
+    font-size: 14px;
 }
 
 p{
@@ -98,6 +100,7 @@ p{
 .avatar-name{
     font-weight: 800;
     padding-left: 10px;
+    color: var(--Gray-950);
 }
 .footer{
     padding-top: 30px;
